@@ -17,7 +17,7 @@
 
 ## 1 . Clone the repository
 
-`git clone https://github.com/<username>/linkedin-clone`
+`git clone https://github.com/fahadNoufal/LinkedIn-clone.git`
 
 ## 2 . Install dependencies
 
