@@ -76,6 +76,3 @@ Feel free to contribute to the project by creating pull requests.
 # Note
 
 This project is for educational and learning purposes only and not for commercial use.
-
-
-
