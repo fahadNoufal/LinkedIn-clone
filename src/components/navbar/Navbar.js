@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
                 <form action="" className="submit--btn flex text-gray-600 bg-blue-100 px-4 items-center gap-2 w-3/5">
                     <BiSearch className='text-2xl '/>
-                    <input type="text" name="search" placeholder='Search' className=' bg-transparent outline-none placeholder:text-inherit '/>
+                    <input type="text" name="search" placeholder='Search' className=' bg-transparent     outline-none placeholder:text-inherit '/>
                     <button className="search--submit hidden">btn</button>
                 </form>
 
