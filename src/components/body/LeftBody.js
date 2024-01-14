@@ -15,7 +15,7 @@ const LeftBody=()=>{
       className="profile--pic object-cover object-top aspect-square rounded-full border-white border bg-white w-1/4" 
 
     />):(
-      <div className="aspect-square rounded-full w-1/4 bg-gray-200 flex justify-center items-center font-semibold text-2xl text-gray-400 border-white border">
+      <div className="aspect-square rounded-full w-1/4 bg-blue-500 flex justify-center items-center font-semibold text-2xl text-white border-white border">
         {email[0].toUpperCase()}
       </div>
     )
@@ -23,7 +23,7 @@ const LeftBody=()=>{
 
   return (
   <>
-    <div className="left--body w-3/12 flex flex-col gap-4  ">
+    <div className="left--body w-3/12 lg:flex hidden flex-col gap-4  ">
 
       <div className="l-b-c1 border cursor-pointer border-gray-300 rounded-xl shadow-sm bg-white">
         <div className="profile--container shadow-lg ">

@@ -47,7 +47,7 @@ const LoginPage = () => {
         <h1 className=' absolute top-10 left-12 font-bold text-3xl text-blue-700 flex items-center gap-1 tracking-tight'>
             Linked<BsLinkedin/>
         </h1>
-        <div className=" p-6 rounded-lg w-1/4 " style={{boxShadow:"0 0 20px rgba(0,0,0,0.14)"}}>
+        <div className=" p-6 rounded-lg w-1/4 min-w-[310px] " style={{boxShadow:"0 0 20px rgba(0,0,0,0.14)"}}>
             <h2 className=' font-semibold text-3xl '>
                 Sign in
             </h2>

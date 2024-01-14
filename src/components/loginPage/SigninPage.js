@@ -50,14 +50,14 @@ const SigninPage = () => {
   }
 
   return (
-    <div className=' w-full h-screen flex flex-col justify-center items-center relative bg-gray-100'>
+    <div className=' w-full h-screen flex flex-col justify-center items-center  relative bg-gray-100'>
         <h1 className=' absolute top-10 left-12 font-bold text-3xl text-blue-700 flex items-center gap-1 tracking-tight'>
             Linked<BsLinkedin/>
         </h1>
-        <div className="signin--heading text-3xl py-10 ">
+        <div className="signin--heading text-3xl text-center py-10  ">
             Make most of your Professional life
         </div>
-        <div className=" p-6 rounded-lg w-1/4 bg-white " style={{boxShadow:"0 0 20px rgba(0,0,0,0.14)"}}>
+        <div className=" p-6 rounded-lg w-1/4 bg-white min-w-[310px] " style={{boxShadow:"0 0 20px rgba(0,0,0,0.14)"}}>
             <form className=' flex flex-col gap-6 transition-all' onSubmit={handleSignin}>
                 <input 
                     type="text" 

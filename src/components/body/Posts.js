@@ -39,7 +39,7 @@ const Posts = forwardRef(({name,nameDetails,content,profileUrl},ref) => {
             </h2>
         </div>
         <div className="post--reactions">
-            <ul className='flex justify-between'>
+            <ul className='flex justify-between gap-1'>
                 <li>
                     <PostReactionItem
                         icon={<AiFillLike/>}

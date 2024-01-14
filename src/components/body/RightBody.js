@@ -16,7 +16,7 @@ function RightBody() {
   }
 
   return (
-    <div className="right--body w-4/12">
+    <div className="right--body w-4/12 hidden xl:block">
         <div className="news--feed--box bg-white border pt-5 pb-3 border-gray-300 rounded-xl shadow-sm">
           <div className="news--box--title flex items-center px-5 justify-between">
             <h2 className=' font-semibold text-gray-700 '>

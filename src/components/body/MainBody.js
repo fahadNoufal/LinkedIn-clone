@@ -71,7 +71,7 @@ function MainBody() {
   })
 
   return (
-    <div className="main--body w-7/12 flex flex-col gap-4">
+    <div className="main--body w-full xl:w-7/12 flex flex-col gap-4">
         <CreatePost
           handlePostCreation={handlePostCreation}
         />

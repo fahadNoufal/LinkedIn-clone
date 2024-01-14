@@ -60,7 +60,7 @@ const CreatePost = ({handlePostCreation}) => {
               <li>
                 <PostType 
                   icon={<RiArticleLine className=' text-red-800'/>} 
-                  title="Write article"
+                  title="Article"
                 />
               </li>
             </ul>
